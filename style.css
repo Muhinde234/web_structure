@@ -1,23 +1,10 @@
 *
 {
-    padding: 0% auto;
-    margin: 0% auto;
+padding: 0%;
+margin: 0%;
 }
-.upperh
+.logo>img
 {
-    display: flex;
-}
-.icon
-{
-    color: pink;
-    margin-left: 100px;
-    margin-top: 30px;
-    justify-content: space-between;
-}
-.left
-{
-    color:black;
-    margin-left: 100px;
-    margin-top: 30px;
-    justify-content: space-between;
+width: 40px;
+height: 40PX;
 }
