@@ -4,7 +4,10 @@ padding: 0%;
 margin-right: 1px;
 }
 header{
-    height:80px;
+    /* background-color: rgba(0, 128, 0, 0.811);; */
+    height:70px;
+    /* top: 0%; */
+    
 }
 main{
     height:90px;
@@ -13,15 +16,18 @@ main{
 {
     display: flex;
 }
+
 .logo>img{
 width:40px;
 height:40px; 
+border-radius: 50%;
 padding: 20px;
+
 }
 .link
 {
     padding:20px;
-    margin-left: 700px;
+    margin-left: 500px;
     
 }
 .link a
@@ -36,25 +42,41 @@ padding: 20px;
     margin-top:50px;
     display: flex;
 }
+.image
+{
+    background-color: aqua;
+}
 .image>img{
     width: 300px;
     height:300px;
     border-radius:50% ;
     margin-left: 200px;
+    
 }
-.Bpar
+.head
 {
     
     margin-left: 100px;
 }
-.Bpar>h1{
-    padding-top: 8rem;
-    padding-left: 2rem;
+.head>h1{
+    /* padding-top: 8rem; */
+    /* padding-left: 2rem; */
     font-size: 30px;
     font-family: "gotch Hand" cursive;
-    text-transform: uppercase;
+    color: blue;
+  
 }
-.Bpar>p{
-    font-size: 20px;
-    font-family: "gotch Hand" cursive;
+.head>h2{
+    color: blue;
+    margin-top:-20px;
 }
+
+body
+{
+    background-color: black;
+}
+hr {
+    border: none; /* Remove default border */
+    height: 2px; /* Set the height of the horizontal rule */
+    background-color: blue; /* Set the background color to blue */
+  }
