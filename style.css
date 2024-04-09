@@ -36,6 +36,7 @@ padding: 20px;
     text-decoration: none;
     font-size: 19px;
     text-transform: capitalize;
+color: aqua;
 }
 .main
 {
@@ -63,11 +64,11 @@ padding: 20px;
     /* padding-left: 2rem; */
     font-size: 30px;
     font-family: "gotch Hand" cursive;
-    color: blue;
+    color:white;
   
 }
 .head>h2{
-    color: blue;
+    color:white;
     margin-top:-20px;
 }
 
@@ -76,7 +77,9 @@ body
     background-color: black;
 }
 hr {
-    border: none; /* Remove default border */
-    height: 2px; /* Set the height of the horizontal rule */
-    background-color: blue; /* Set the background color to blue */
+    border: none; 
+    height: 2px;
+ margin-right: 980px;
+ margin-left: 50px;
+    background-color:aqua;
   }
