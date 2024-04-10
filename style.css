@@ -45,7 +45,9 @@ color: aqua;
 }
 .image
 {
-    background-color: aqua;
+    /* background-color: aqua;
+    width: fit-content; */
+    margin-left:250px ;
 }
 .image>img{
     width: 300px;
