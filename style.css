@@ -42,18 +42,20 @@ color: aqua;
 {
     margin-top:50px;
     display: flex;
+    margin-left: 80px;
 }
 .image
 {
     /* background-color: aqua;
     width: fit-content; */
     margin-left:250px ;
+    margin-top: -100px;
 }
 .image>img{
     width: 300px;
     height:300px;
     border-radius:50% ;
-    margin-left: 200px;
+    margin-left: 300px;
     
 }
 .head
@@ -81,7 +83,7 @@ body
 hr {
     border: none; 
     height: 2px;
- margin-right: 980px;
- margin-left: 50px;
+ margin-right: 900px;
+ margin-left: 150px;
     background-color:aqua;
   }
