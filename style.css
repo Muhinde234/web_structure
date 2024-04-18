@@ -5,7 +5,7 @@ body {
 }
 .jumbotron {
       background-color: #343a40;
-      color: #ffffff;
+      color: aquamarine;
       padding: 80px 20px;
       margin-bottom: 0;
     }
@@ -14,9 +14,30 @@ body {
     }
 .portfolio-item img {
       width: 100%;
-      border-radius: 5px;
+      border-radius: 10px;
     }
 .footer
+{ 
+     border-top:5px solid aqua ;
+}
+.footer>p{
+      
+margin-left: 100px;
+}
+#about
 {
-     margin-left: 100px; 
+      margin-top: 150px;
+}
+#about h2
+{
+      color: aquamarine;
+      
+      text-align: center;
+}
+.rounded
+{
+      width: 300px;
+      height: 300px;
+      margin-left: 150px;
+      
 }
