@@ -1,89 +1,19 @@
-*
-{
-padding: 0%;
-margin-right: 1px;
-}
-header{
-    /* background-color: rgba(0, 128, 0, 0.811);; */
-    height:70px;
-    /* top: 0%; */
-    
-}
-main{
-    height:90px;
-}
-.me
-{
-    display: flex;
-}
-
-.logo>img{
-width:40px;
-height:40px; 
-border-radius: 50%;
-padding: 20px;
-
-}
-.link
-{
-    padding:20px;
-    margin-left: 500px;
-    
-}
-.link a
-{
-    padding-right: 5rem;
-    text-decoration: none;
-    font-size: 19px;
-    text-transform: capitalize;
-color: aqua;
-}
-.main
-{
-    margin-top:50px;
-    display: flex;
-    margin-left: 80px;
-}
-.image
-{
-    /* background-color: aqua;
-    width: fit-content; */
-    margin-left:250px ;
-    margin-top: -100px;
-}
-.image>img{
-    width: 300px;
-    height:300px;
-    border-radius:50% ;
-    margin-left: 300px;
-    
-}
-.head
-{
-    
-    margin-left: 100px;
-}
-.head>h1{
-    /* padding-top: 8rem; */
-    /* padding-left: 2rem; */
-    font-size: 30px;
-    font-family: "gotch Hand" cursive;
-    color:white;
-  
-}
-.head>h2{
-    color:white;
-    margin-top:-20px;
-}
-
-body
-{
-    background-color: black;
-}
-hr {
-    border: none; 
-    height: 2px;
- margin-right: 900px;
- margin-left: 150px;
-    background-color:aqua;
+    /* Custom CSS styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color:aqua;
   }
+  .jumbotron {
+        background-color: #343a40;
+        color: #ffffff;
+        padding: 80px 20px;
+        margin-bottom: 0;
+      }
+  .portfolio-item {
+        margin-bottom: 30px;
+      }
+  .portfolio-item img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    </style>
