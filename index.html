@@ -50,8 +50,8 @@
     <div class="row">
     <div class="col-lg-6">
      <h2>About Me</h2>
-    <p> a Frontend develop and current student at university of Rwanda majoring in computer and software engineering</p>
-    <p>my journey into web development was never been easy because it requires so much effort passion and consistency, but here to inspire you guys to dream big and do beyond the lines everything is possible when you are sure that you reall want it.</p>
+    <p>   A Frontend develop and current student at university of Rwanda majoring in computer and software engineering.</p>
+    <p>My journey into web development was never been easy because it requires so much effort passion and consistency, but here to inspire you guys to dream big and do beyond the lines everything is possible when you are sure that you really want it.</p>
     </div>
     <div class="col-lg-6">
     <img class="img-fluid rounded" src="./dosta (2).jpg" alt="About Me Image">
@@ -61,25 +61,25 @@
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-    <h2>Portfolio</h2>
+    <h2>my projects</h2>
     <div class="row">
     <!-- Project One -->
     <div class="col-lg-4 portfolio-item">
     <h3>The nature</h3>
     <img class="img-fluid" src="./R.jpeg" width="300px" height="300px" alt="Project One Image">
-    <p>Description of Project One</p>
+    
     </div>
     <!-- Project Two -->
     <div class="col-lg-4 portfolio-item">
     <h3>Beauty Center</h3>
     <img class="img-fluid" src="./woman.avif" alt="Project Two Image">
-    <p>Description of Project Two</p>
+
     </div>
     <!-- Project Three -->
     <div class="col-lg-4 portfolio-item">
     <h3>Relief</h3>
     <img class="img-fluid" src="./afrTIGi.webp" alt="Project Three Image">
-    <p>Description of Project Three</p>
+    
     </div>
     </div>
     </section>
@@ -88,7 +88,22 @@
     <section id="contact">
     <h2>Contact Me</h2>
     
-    <!-- <p>Email: contact@example.</p> -->
+    <form id="contact-form">
+    <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+    </form>
+    
     </section>
 
   </div>
@@ -98,6 +113,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./script.js"></script>
 <footer>
  <div class="footer">
 <p>&copy; 2024 Muhinde dosta. All rights reserved.</p> </div> 
