@@ -1,19 +1,22 @@
     /* Custom CSS styles */
-    body {
-        font-family: Arial, sans-serif;
-        background-color:aqua;
-  }
-  .jumbotron {
-        background-color:black;
-        color: #ffffff;
-        padding: 80px 20px;
-        margin-bottom: 0;
-      }
-  .portfolio-item {
-        margin-bottom: 30px;
-      }
-  .portfolio-item img {
-        width: 100%;
-        border-radius: 5px;
-      }
-    
+body {
+      font-family: Arial, sans-serif;
+      /* background-color:aqua; */
+}
+.jumbotron {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 80px 20px;
+      margin-bottom: 0;
+    }
+.portfolio-item {
+      margin-bottom: 30px;
+    }
+.portfolio-item img {
+      width: 100%;
+      border-radius: 5px;
+    }
+.footer
+{
+     margin-left: 100px; 
+}
