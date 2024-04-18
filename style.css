@@ -4,7 +4,7 @@
         background-color:aqua;
   }
   .jumbotron {
-        background-color: #343a40;
+        background-color:black;
         color: #ffffff;
         padding: 80px 20px;
         margin-bottom: 0;
@@ -16,4 +16,4 @@
         width: 100%;
         border-radius: 5px;
       }
-    </style>
+    
