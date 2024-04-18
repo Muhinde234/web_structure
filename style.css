@@ -16,8 +16,14 @@ body {
       width: 100%;
       border-radius: 10px;
  }
- #portfolio
+ #portfolio 
  {
+margin-top:80px ;
+
+ }
+ #portfolio h2
+ {
+      
   color: aquamarine; 
   text-align: center; 
   text-transform: capitalize; 
@@ -55,3 +61,53 @@ margin-left: 100px;
       margin-left: 150px;
       
 }
+
+    #contact{
+      width: 80%;
+      max-width: 450px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: aqua;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: black;
+
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #555;
+    }
+    
